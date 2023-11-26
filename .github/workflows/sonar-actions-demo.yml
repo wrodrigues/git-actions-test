@@ -1,8 +1,8 @@
 name: Sonar Analyzer
-run-name: Source Code Analyze
+run-name: Sonar Analyze
 on: [pull_request]
 jobs:
-  Code-Analyzer:
+  Analise-De-Codigo:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Aplicar analise de código a cada evento no PR"
