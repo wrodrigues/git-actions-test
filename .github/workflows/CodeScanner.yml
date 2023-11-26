@@ -5,4 +5,4 @@ jobs:
   Analise-De-Codigo:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Aplicar analise de código a cada evento no PR"
+      - run: echo "Aplicar analise de código a cada evento do pull request"

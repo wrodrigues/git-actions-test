@@ -1,5 +1,5 @@
-name: Buil AspNetCore API
-run-name: ${{ github.actor }} is building aspnet core API on merge pull request
+name: Deployment AspNetCore API
+run-name: Deployment AspNetCore API
 on:
   pull_request:
     types:
@@ -20,7 +20,7 @@ jobs:
   #         ls ${{ github.workspace }}
   #     - run: echo "🍏 This job's status is ${{ job.status }}."
 
-  Build-AspNetCore-API:
+  Deployment-API:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
